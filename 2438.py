@@ -11,7 +11,6 @@ def calculate():
         raise ValueError
     if star_num < 1 or star_num == 0:
         raise ValueError
-
     else:
         for i in range(1, star_num + 1, 1):
             print("*" * i)
