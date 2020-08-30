@@ -7,11 +7,12 @@
 using std::cin;
 using std::cout;
 
-int main() {
+int main()
+{
 	int a, b, c; // 변수 선언
 
-	cin >> a; // 입력
-	cin >> b; // 입력
+	cin >> a;  // 입력
+	cin >> b;  // 입력
 	c = a * b; // 입력된 두 값을 곱함
 	cout << c; // 곱한 값을 출력
 }
